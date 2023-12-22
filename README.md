@@ -19,6 +19,10 @@ This revised approach aims to provide a more thorough understanding of our proje
 #### A sophisticated technique to prevent the loss of previously learned information (catastrophic forgetting) by intelligently moderating the learning process. EWC identifies crucial neural network weights and applies constraints to preserve them, enabling the model to learn new tasks without overriding critical past knowledge.
 
 ## θ* = argmin θ L_B(θ) + ½ λ ∑_i θ*_A,i (θ_i - θ*_A,i)^2
+
+
+
+
 - `θ*` represents the optimal set of parameters after training on the new task B.
 - `argmin θ` denotes the argument of the parameters θ that minimizes the following expression.
 - `L_B(θ)` is the loss function for the new task B.
