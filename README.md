@@ -1,7 +1,7 @@
 # Abstract
 The development of Lifelong Language Models (LLMs) represents a shift from static to dynamic learning systems. LLMs are designed to continuously learn and adapt throughout their lifecycle. This project is committed to develop an LLM capable of continuously assimilating and integrating new data, thereby staying abreast of the ever-evolving linguistic landscape. Key to this endeavor is an innovative approach to data integration that ensures continuous learning without the need for retraining from the ground up. Special attention is paid to mechanisms designed to prevent catastrophic forgetting, enabling the model to retain previously acquired knowledge while seamlessly incorporating new information.
 
-Central to our methodology is the validation of data sources, ensuring the relevance and reliability of the information being integrated into the model. This process is crucial for maintaining the model's accuracy and mitigating biases. Additionally, we address the computational challenges inherent in such a dynamic system, proposing efficient strategies to manage resource requirements effectively. The model's adaptability to the nuanced evolution of language, including semantics and contextual shifts, is a cornerstone of our research. We employ sophisticated algorithms capable of understanding and adapting to these subtleties over time. To evaluate the model's performance, we have developed a comprehensive set of metrics that go beyond traditional benchmarks, focusing on long-term effectiveness and adaptability in real-world scenarios.
+Central to the methodology is the validation of data sources, ensuring the relevance and reliability of the information being integrated into the model. This process is crucial for maintaining the model's accuracy and mitigating biases. Additionally, we address the computational challenges inherent in such a dynamic system, proposing efficient strategies to manage resource requirements effectively. The model's adaptability to the nuanced evolution of language, including semantics and contextual shifts, is a cornerstone of our research. We employ sophisticated algorithms capable of understanding and adapting to these subtleties over time. To evaluate the model's performance, we have developed a comprehensive set of metrics that go beyond traditional benchmarks, focusing on long-term effectiveness and adaptability in real-world scenarios.
 
 This revised approach aims to provide a more thorough understanding of our project's scope and aspirations, addressing the critical aspects of lifelong learning in NLP.
 
@@ -16,7 +16,7 @@ This revised approach aims to provide a more thorough understanding of our proje
 
 ## Features
 ### Elastic Weight Consolidation (EWC)
-#### A sophisticated technique to prevent the loss of previously learned information (catastrophic forgetting) by intelligently moderating the learning process. EWC identifies crucial neural network weights and applies constraints to preserve them, enabling the model to learn new tasks without overriding critical past knowledge.
+#### A technique to prevent the loss of previously learned information (catastrophic forgetting) by intelligently moderating the learning process. EWC identifies crucial neural network weights and applies constraints to preserve them, enabling the model to learn new tasks without overriding critical past knowledge.
 
 ## θ* = argmin θ L_B(θ) + ½ λ ∑_i θ*_A,i (θ_i - θ*_A,i)^2
 
